@@ -1,0 +1,4 @@
+ansible -i inventory -m ping all
+ansible-playbook -i inventory world.yml
+
+ansible-galaxy install chusiang.helloworld
